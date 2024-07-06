@@ -19,7 +19,7 @@ public class ArrayExam03 {
 		for (int i = 0; i < arr.length; i++) {
 			
 			for (int j = 0; j < (arr.length - 1) - i; j++) {
-				
+				//오름차순은 현재 위치보다 다음 위치 값이 커야하는데 현재 위치 값이 크다면 앞뒤를 변경
 				if (arr[j] > arr[j+1]) {
 					temp = arr[j+1];
 					arr[j+1] = arr[j];
